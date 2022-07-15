@@ -1,0 +1,20 @@
+
+.titulo {
+    margin-left: 15rem;
+}
+.corpo {
+    margin-left: 15rem;
+}
+
+.tableColor {
+    background-color: #348a78;
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        margin-left: unset;
+    }
+    .corpo {
+        margin-left: unset;
+    }
+}

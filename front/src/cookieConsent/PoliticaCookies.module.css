@@ -1,0 +1,26 @@
+
+
+.titulo {
+    background-color: #348a78;
+    padding: 7rem;
+    color: white;
+    text-align: center;
+}
+
+.corpo {
+    padding-left: 18rem;
+    padding-right: 18rem;
+    margin-top: 4rem;
+}
+
+@media (max-width: 768px) {
+    .corpo {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-top: 4rem;
+    }
+}
+
+.corpo h3, h5 {
+    font-weight: bold;
+}

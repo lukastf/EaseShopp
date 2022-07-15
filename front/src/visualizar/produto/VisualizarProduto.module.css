@@ -1,0 +1,40 @@
+
+
+.imgSelected {
+    height: 30rem;
+    width: 30rem;
+    border-style: groove;
+}
+
+@media (max-width: 768px) {
+    .imgSelected {
+        height: 12rem;
+        width: 14rem;
+        border-style: groove;
+    }
+}
+
+.img {
+    width: 6rem;
+    height: 6rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.valor {
+    color: green;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.border {
+    border-style: groove;
+}
+
+.setasImg {
+    font-size: 3rem;
+    margin-top: 2.5rem;
+    color: #348a78;
+    cursor: pointer;
+    padding: 0;
+}

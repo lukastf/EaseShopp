@@ -1,0 +1,106 @@
+
+.sidebar {
+    width: 15rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 1;
+    background: #333;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.sidebarScroll {
+    padding-top: 12rem;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: unset;
+        padding-top: unset;
+        position: unset;
+        top: unset;
+        left: unset;
+        height: unset;   
+    }
+}
+
+.hideSidebar {
+    margin-left: -15rem;
+}
+
+.sidebar ul {
+    margin-left: 0.5rem;
+}
+
+.sidebar ul li a {
+    padding: 0.35rem;
+    font-size: 1.1em;
+    display: block;
+    color: white;
+}
+
+.sidebar ul li a:hover {
+    color: #333;
+    text-decoration: none;
+    background: #fff;
+}
+
+.sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #333;
+}
+
+.sidebar a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.sidebar .dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.sidebar ul ul a {
+    font-size: 0.9em !important;
+    background: #333;
+}
+
+.sidebar ul ul a svg {
+    margin-right: 1rem;
+}
+
+.sidebar a.download {
+    background: #fff;
+    color: #333;
+}
+
+.sidebar a.article,
+.sidebar a.article:hover {
+    background: #333 !important;
+    color: #fff !important;
+}
+
+.btnHideShowSideBar {
+    margin-left: 12rem;
+    margin-top: -6rem;
+}
+
+.btnHideShowSideBarBot {
+    margin-left: 12rem;
+    margin-top: -2rem;
+}
+
+.btnHideShowSideBarHide {
+    margin-left: 15rem;
+    margin-top: -6rem;
+}
+
+.btnHideShowSideBarBotHide {
+    margin-left: 15rem;
+    margin-top: -2rem;
+}

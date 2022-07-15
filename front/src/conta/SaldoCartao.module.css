@@ -1,0 +1,30 @@
+
+.saldoCartao {
+    list-style-type: none;
+    margin-top: 2rem;
+}
+
+.saldoCartao li {
+    float: left;
+    padding: 1rem 1.5rem;
+    margin-right: 1.5rem;
+    border: 0.1rem solid #348a78;
+    border-radius: 0.5rem;
+}
+
+.saldoCartao li span {
+    color: #0a4aff;
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.ajustarBlocos {
+    margin-left: 10rem;
+}
+
+@media (max-width: 768px) {
+    .ajustarBlocos {
+        margin-left: unset;
+    }
+}

@@ -1,0 +1,126 @@
+[ 
+    {
+        "nome" : "produto 17",
+        "marca": "marca x",
+        "valor" : "R$ 80,00",
+        "quantidade" : "15",
+        "descricao" : "descrição do produto 1",
+        "imagens" : [
+                "",
+                "",
+                "",
+                "",
+                ""
+        ],
+        "categoria" : "Moda",
+        "cor": "Verde",
+        "tipoTamanho" : "Centimetros",
+        "comprimento" : "25,4",
+        "largura" : "30,8",
+        "altura" : "50,6",
+        "peso": "28,5",
+        "diametro": "20,6",
+        "formato": 1,
+        "opcoesMedida": "Nenhuma",
+        "voltagem": [],
+        "tamanhoRoupas": [],
+        "tamanhoCalcados": [],
+        "opcoes" : {
+            "retirada": true,
+            "entrega" : true
+        }
+    },
+    {
+        "nome" : "produto 24",
+        "marca": "marca y",
+        "valor" : "R$ 309,90",
+        "quantidade" : "7",
+        "descricao" : "descrição do produto 2",
+        "imagens" : [
+                "http://exemplo.com.br/caminho/imagem1.png",
+                "",
+                "",
+                "",
+                ""
+        ],
+        "categoria" : "Calçados",
+        "cor": "Azul",
+        "tipoTamanho" : "Numero",
+        "comprimento" : "25,4",
+        "largura" : "60,3",
+        "altura" : "70",
+        "peso": "30,5",
+        "diametro": "15,6",
+        "formato": 1,
+        "opcoesMedida": "TamanhoCalcados",
+        "voltagem": [],
+        "tamanhoRoupas": [],
+        "tamanhoCalcados": [34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+        "opcoes" : {
+            "retirada": true,
+            "entrega" : true
+        }
+    },
+    {
+        "nome" : "produto 37",
+        "marca": "marca z",
+        "valor" : "R$ 750,00",
+        "quantidade" : "28",
+        "descricao" : "descrição do produto 3",
+        "imagens" : [
+                "http://exemplo.com.br/caminho/imagem2.png",
+                "http://exemplo.com.br/caminho/imagem3.png",
+                "http://exemplo.com.br/caminho/imagem4.png",
+                "http://exemplo.com.br/caminho/imagem5.png",
+                "http://exemplo.com.br/caminho/imagem6.png"
+        ],
+        "categoria" : "Casa e Eletrodomésticos",
+        "cor": "Verde",
+        "tipoTamanho" : "Letra",
+        "comprimento" : "50,4",
+        "largura" : "60,6",
+        "altura" : "70",
+        "peso": "15,7",
+        "diametro": "40,4",
+        "formato": 2,
+        "opcoesMedida": "Voltagem",
+        "voltagem": ["110v", "220v"],
+        "tamanhoRoupas": [],
+        "tamanhoCalcados": [],
+        "opcoes" : {
+            "retirada": true,
+            "entrega" : true
+        }
+    },
+    {
+        "nome" : "produto 50",
+        "marca": "marca z",
+        "valor" : "R$ 80,00",
+        "quantidade" : "15",
+        "descricao" : "poduto de algodão",
+        "imagens" : [
+                "",
+                "",
+                "",
+                "",
+                ""
+        ],
+        "categoria" : "Moda",
+        "cor": "Azul",
+        "tipoTamanho" : "Centimetros",
+        "comprimento" : "25,4",
+        "largura" : "30,8",
+        "altura" : "50,6",
+        "peso": "28,5",
+        "diametro": "20,6",
+        "formato": 1,
+        "opcoesMedida": "TamanhoRoupas",
+        "voltagem": [],
+        "tamanhoRoupas": ["P", "M", "G", "GG"],
+        "tamanhoCalcados": [],
+        "opcoes" : {
+            "retirada": true,
+            "entrega" : true
+        }
+    }
+]
